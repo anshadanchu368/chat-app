@@ -5,13 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build": "vite build"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.7",
     "axios": "^1.9.0",
+    "chatapp": "file:..",
     "daisyui": "^5.0.37",
     "lucide-react": "^0.511.0",
     "react": "^19.1.0",
